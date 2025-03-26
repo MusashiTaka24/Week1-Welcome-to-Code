@@ -19,17 +19,17 @@
 let nama = "luffy";
 let peran = "raja bajak laut";
 
-if( nama === "") {;
+if( nama === "") {
     console.log("nama wajib diisi");
 }
-if( peran === "") {;
+if( peran === "") {
     console.log("pilih peranmu untuk memulai");
-} else if (peran === "Ksatria") {;
+} else if (peran === "Ksatria") {
     console.log(`halo Ksatria ${nama}, kamu dapat menyerang dengan senjatamu!`);
-} else if (peran === "Tabib") {;
+} else if (peran === "Tabib") {
     console.log(`halo Tabib ${nama}, kamu akan membantu teman yang terluka`);
-} else if (peran === "Penyihir") {;
+} else if (peran === "Penyihir") {
     console.log(`halo Penyihir ${nama}, ciptakan keajaiban yang membantu kemenanganmu!`);
-}    else {;
+}    else {
         console.log(`tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada`);
 }
